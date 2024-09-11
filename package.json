@@ -1,0 +1,17 @@
+{
+  "name": "learning-jwt",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "dev:auth": "tsx watch auth.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "tsx": "^4.19.0"
+  }
+}
